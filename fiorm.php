@@ -9,7 +9,8 @@
     </style>
 </head>
 <body>
-<form action="formdata.php" method="post">
+    <!-- creating from -->
+<form action="formdata.php" method="post"> 
     NAME : <input type="text" name="stname"><br><br>
     FNAME : <input type="text" name="fname"><br><br>
     CLASS : <input type="number" name="class"><br><br>
@@ -21,4 +22,5 @@
 
 </form>
 </body>
+
 </html>
