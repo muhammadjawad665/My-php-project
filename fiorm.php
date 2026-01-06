@@ -9,18 +9,19 @@
     </style>
 </head>
 <body>
-    <!-- creating from -->
-<form action="formdata.php" method="post"> 
-    NAME : <input type="text" name="stname"><br><br>
-    FNAME : <input type="text" name="fname"><br><br>
-    CLASS : <input type="number" name="class"><br><br>
-    GR-NO : <input type="number" name="gr-no"><br><br>
-    TECHNOLOGY : <input type="text" name="tech"><br><br>
-    <input type="submit">
-    <input type="reset">
+<form action="formdata.php" method="post">
+
+   <input type="text" placeholder="NAME" Value = "NAME" name = "name"> <br>
+   <input type="text" placeholder="FATHER'S NAME" Value = "FATHER'S NAME" name = "fname"> <br>
+   <input type="text" placeholder="E-MAIL" Value = "E-MAIL" name = "email"> <br>
+   <input type="text" placeholder="CONTACT" Value = "CONTACT" name = "contact"> <br>
+   <label for="na">GENDER:</label> <br>
+   <input type="radio"  Value = "Male" name = "gender"> Male <br>
+   <input type="radio"  Value = "Female" name = "gender"> Female <br>
+<input type="reset"> <br>
+<input type="submit"> 
 
 
 </form>
 </body>
-
 </html>
